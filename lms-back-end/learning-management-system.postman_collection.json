@@ -1,0 +1,455 @@
+{
+	"info": {
+		"_postman_id": "e403346c-d6ee-47f8-b238-cf9c272f703c",
+		"name": "learning-management-system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user-register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_name\":\"ravitejacts94\",\"password\":\"$Ravitejacts94$\",\"email\":\"ravitejacts94@gmail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/user/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"user",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_name\":\"raviteja92\",\"password\":\"$Ravitejanaik92$\",\"email\":\"ravitejasrt93@outlook.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/user/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"user",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-enrolled-courses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicmF2aXRlamE5MiIsImlhdCI6MTY3MDY3NDE5MSwiZXhwIjoxNjcwNzEwMTkxfQ.TuPbj54bYoAEKp3aoD_4Jqhcw0_2gJyASiErqdb9_m4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/user/user/1/enrolled-courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"user",
+						"user",
+						"1",
+						"enrolled-courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "courses-getall",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicmF2aXRlamE5MiIsImlhdCI6MTY3MDY3NDE5MSwiZXhwIjoxNjcwNzEwMTkxfQ.TuPbj54bYoAEKp3aoD_4Jqhcw0_2gJyASiErqdb9_m4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/courses/courses/getall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"courses",
+						"courses",
+						"getall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "course-by-id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicmF2aXRlamE5MiIsImlhdCI6MTY3MDY3NDE5MSwiZXhwIjoxNjcwNzEwMTkxfQ.TuPbj54bYoAEKp3aoD_4Jqhcw0_2gJyASiErqdb9_m4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/course/course/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"course",
+						"course",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-enroll-course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicmF2aXRlamE5MiIsImlhdCI6MTY3MDY3NDE5MSwiZXhwIjoxNjcwNzEwMTkxfQ.TuPbj54bYoAEKp3aoD_4Jqhcw0_2gJyASiErqdb9_m4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"course_id\":6,\"user_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/user/user/enroll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"user",
+						"user",
+						"enroll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove-user-enrolled-course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicmF2aXRlamE5MiIsImlhdCI6MTY3MDY3NDE5MSwiZXhwIjoxNjcwNzEwMTkxfQ.TuPbj54bYoAEKp3aoD_4Jqhcw0_2gJyASiErqdb9_m4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/user/user/1/delete/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"user",
+						"user",
+						"1",
+						"delete",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-course-by-tech-and-time",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicmF2aXRlamE5MiIsImlhdCI6MTY3MDY3NDE5MSwiZXhwIjoxNjcwNzEwMTkxfQ.TuPbj54bYoAEKp3aoD_4Jqhcw0_2gJyASiErqdb9_m4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/courses/courses/get/Java/1669833000000/1672444800000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"courses",
+						"courses",
+						"get",
+						"Java",
+						"1669833000000",
+						"1672444800000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin-login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_name\":\"raviteja\",\"password\":\"raviteja92\",\"email\":\"raviteja@gmail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/admin/admin/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"admin",
+						"admin",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6InJhdml0ZWphIiwiaWF0IjoxNjcwNjc1NTkwLCJleHAiOjE2NzA3MTE1OTB9.9ao960yi9qu9OFRfJvSR2AU2aoRXNKw4PH9eGVYpvnc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"course_name\":\"dummyjavaversion2                       \",\"technology\":\"dumjavv2\",\"description\":\"Dum Javav2 is a high-level, class-based, object-oriented programming language that is designed to have as few implementa\",\"launch_url\":\"java.com\",\"start_time\":1669833000000,\"end_time\":1672444800000}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/course/course/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"course",
+						"course",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6InJhdml0ZWphIiwiaWF0IjoxNjcwNjc1NTkwLCJleHAiOjE2NzA3MTE1OTB9.9ao960yi9qu9OFRfJvSR2AU2aoRXNKw4PH9eGVYpvnc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/learning-management-service/course/course/delete/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"learning-management-service",
+						"course",
+						"course",
+						"delete",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
