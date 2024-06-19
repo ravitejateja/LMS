@@ -1,0 +1,173 @@
+1.why synchonization and explain with examples 
+2.Explain about System.out.println() function
+3.Is it possible to import same class or package twice in java then what will happen during runtime  
+4.Double brace instantion in java 
+5.find the first non-repeated character in the string.==> Java article are good for read. 
+6.flow of HTTPS request though Springboot Appliction
+7.how to enable the debugging logs in spring boot application.
+8.purpose of logging in SB 
+9.how will you proceed to close the Story  of JIRA, wheter it is Bug or Story point. 
+10.how will ensure your secure your application.
+11.when we use to lambda expression
+12.java is pass by value or pass by reference and difference between these two.
+13.to the method i have passed an object, what does java do internally whether internally copied(cloned) or directly pass the object .
+14.how we configure two transactons using @Transactioanl annotations.which isolation level we used inside the tansaction.
+15.if we have to delete in parent table that data also delete in child data how will we configure in entity class.
+16.how will generate the JWT token.
+17. i passed JWT token Service layer at srviice layer i want to get the data from that token and pass to API call, how can i do that.
+18. use of optional and optional.off()   
+19. write a program for customized functional interface and call the interface.
+20. write a program for lambda expression with Functional interface.
+21. Write REST URI 
+22. purpose of endpoint and flow of endpoints
+23. Whats the framework to define endpoints
+24. what are status codes for GetMapping
+25. Example for @RequestParam
+26. flow of rest request
+27. write the query for how many male employees is there using SQL queries
+28. how many payments are made in Feb 2024 using SQL Queries.
+29. Find the sum of numeric values in given input
+     input : 12a3bc4   output : 10
+     input : abc       output  : 0
+30. Request came from one service to another service another service , how the logs connect to multiple.
+31. How can we write test cases for any void type method.
+32. how can we write the test case for update employee and flow of test case.
+33. where exactly used streams in your project.
+34. Consumer & Supplier functioan Interfaces where used in ur project 
+35. Explain Streams.map() 
+36. Difference between Map and Flatmap
+37. where used FlatMap in ur project or any scenarions u have idea.
+38. Find first non-repeated character in string using java8
+39. Difference between Hashtable and ConcurrentHashMap.
+40. what is the concept of Default Method.
+41. can we have Default methods in Normal Interfaces.
+42. Java implemented Default Method in any existing Intefaces 
+43. difference between Hashmap and LinkedHashmap.
+44. What is Shallow and Deep Copy , how can we achieve these.
+45. How Does Garbage collector woks internally.
+46. Irrespective of Garbage collector , is there any way memory management.
+47. is Restful Statefull or Stateless, how can we acheive the State of Restful Webservices.
+48. 403 and 401 Error
+49. Can we have Request body to Delete Method.
+50. I want to Delete 10000 records in DB, how can we achieve in Restful Delete operation.
+51. How many ways to load properties in SpringBoot.
+52. @Configproperties from where it eads properties.
+53. How can we maintain Fault Toleance.
+54. Difference between Feign Client and Rest Template.
+55. How can we creaate TaceID and SpanId.
+56. Difference between Trace Id and Span id.
+57. How do we Join 2 tables.
+58. JUNIT integration testing.
+59. How Do we need Custom Headers.
+60. How do we add additional Headers.
+61. How do we send the additional headers in Response.
+62. Can we have static constructor in java
+63. There are any Conflicts in JAR , how to resolve this issue JAR conflicts.
+64. when we have NoDefclassNotFoundError and ClassNotfoundException how would you handle that, how will you resolve it.
+65. New Features in java 11 and Java 17.
+66. How do we handle connection pooling for Database. 
+67. How do we maintain no of connections,  how many connections open at any point of time , any llibrary to achieve 
+68. How Does Autoconfiguration Works in Spring Boot.
+69. How do we read any value fom application.poperties
+70. How do we manage external properties.
+71. What is Spring Intializer 
+72. How do we Execute Parallel transactions in java application.
+73. Have you used computable feature.  
+74. If we have multiple Queries how do we run parallelly.
+75. Signature of Webservices in highlevel
+76. How do we use HttpRequest. 	 
+77. Have we used httprequest
+78. How will we add additional comments in http request & http response.
+79. How will we read additional information in http request and http response.
+80. Diffeence of Httpservlet Request and QueryParameter.
+81. SSL Configuration.
+82. Interceptors and Filters are implemented in ur project.
+83. What type of Authentication mechanism used in ur project.
+84. What is AOP.
+85. How do we Config logging for our application.
+86. If one issue came with  one service (Fixed Deposit creation) is failed, how would you communicate one equest to another request.
+87. what are core java Design Patterns.
+88. How can we break the Singleton Design Patterns, what types of precautions canwe take while breaking the 
+89. Precautions can we take while breaking Singleton Design pattersn
+90. what type of collections you have used in your project.
+91. can we achieve Synchronization with hashmap , how can we do ?
+92. Example of Fail-Fast and Fail-Safe.
+93. Functional programming in java
+94. Can we create Stand alone applications using Springboot , explain the steps to create the standalone applications.
+95. Spring Beans are Thread safe ? can we use Sping Beans in multi thread Environments.
+96. Explain about JUNIT
+97. Any ways to optimize the SQL Query to improve the DB performance.  
+98. To improve the DB Performance what kind of criteria (or) debugging used in Database perspective.
+99. Why Perm-Gen and Difference Between perm gen and MetaSpace.
+100. Difference between Partition and Grouping in mySQL , where we can use.
+101. If Gateway Goesdown entire application
+102. will string allow  multiple threads
+103. what is try with resources in java 
+104. How to represent Foreign Key from entity class.
+105. Finding Duplicates using GROUP BY and Having Claueses, filteroout the Duplicate emailids from userslist.
+106. Difference between Runnable and Callable
+107. Explain about Executor service
+108. explain about Future Interface and Future Object.
+109. What is Default Connection Pooling mechanism available in Spring boot.
+110. In Interface can we write private methods also.
+111. What is Hashing 
+112. Hashing Collision.
+113. SOLID Principles in java.
+114. What is Thread pool 
+115. What is Idempotent.
+116. How can we represent Composite Key in Entity class.
+117. Difference between Primary Key and Unique Key ?
+118. Fail-Fast and Fail-Safe Iteators 
+119. I want to remove Duplicate and Sot the Data which collection can i use (I have too Much of Data)
+120. Difference between Hashmap and ConcurrentHashMap .
+121. How do we Implements Schedulers in Spring Boot.
+122. How can we handle Exceptions in Microservices. 
+123. Difference between Sorted Set and Tree Set.
+124. Difference between Tomcat and Jetty servers.
+125. When we have to use Tomcat ,Jetty , Netty and undertow Servers in Spring Boot.
+126. Difference between Hashtable and ConcurentHashmap.
+127. Volatile and Transient Variables
+128. How can we pass values to private constructor.
+129. Write the Custome Exception Program in core java.
+130. Explain about ORM
+131. What is Lazyloading and Early loading in Entity ClassNotfoundException
+132. What is SerialversionUID.
+133. What is Explain in SQL Query.
+134. Difference between For and Foreach.
+135. How many ways we can Intialize the Singleton.
+136. Which Algorithm JVM do Garbage Collection.
+137. In table we have 10 coloumns , in this 10 coloumns how we Decide which coloumn is the index.
+138. Can we forcely Start the Garbage collector.
+139. what are the operations available in Stream.
+140. explain about Optional class.
+141. Difference Between HashMap and Hashtable.
+142. explain about Peek() method in java8 Strems.
+143. Optional.of() and Optional.nullable() which one is peferable and why.
+144. Explin Interceptors in Spring Boot.
+145. what is cascade and explain about cascade.
+146. Types of relationships in data JPA.
+147. Explain About @Transaction.
+148. what are the Transaction propagation levels.
+149. what are the Transaction Isolation 
+150. Difference between New operator and NewInstance() method .
+151. What is factory Method.
+152. Memory management in Java
+153. How many ways can we create Objects.
+154. Select query , retrieve the last 5 records using SQL.
+155. What are the annotations used for secuity in SpringBoot.
+156. while Configuring the rest API on service registry rest API name and end point is same or different.  
+157. How do we maintain the Different versions of Rest API. 
+158. Difference between Queryparam and Pathparam.
+159. can pathparam accept multiple params.
+160. How do we send multiple paams  via the request using Params and Queryparams.
+161. Which part of JWT token to use for authenticate.
+162. other types of authentication we have in spring boot
+163. where do we store the JWT Token.
+164. where this JWT token generate.
+165. r u generated JWT token by youself or any third paty API we are used.
+166. Explain about Spring Boot Security concepts.
+167. Can we congigure custom messages to Actuators is it possible.
+168. Can we configure different status for  Different exceptions.
+169. How do we give Different Response status to Different exceptions.
+  
+  
