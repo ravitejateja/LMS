@@ -1,0 +1,88 @@
+BVM-Proj
+VIN,DateOfFabrication,model,version,familycode,CAPV,IASS,radiocode,starterkey
+
+SFD-Diagnostic Information
+
+
+SDC-CodeGeneration
+
+
+Delearpojo
+delearid,country,phone,language,adddress(optional)
+
+Vehicle-Pojo
+VIN,familyID,model,productionNumber,ManfDate,enginetype,engineNumber,gearboxType,gearBoxNumber,RegCountry,deliveryDate,mileage
+
+Faults,
+faultcode,faultType,faultvalue,faultState,uceIndex
+
+SDC-CODEGENERAION- CAR SECRETE KEY GENERATION
+AST-AFTER SALES TRACEABLILITY- PARTS REPLACEMENT INFO
+SFD- DIAGNOSTIC INFO
+BVM-BASE VEHICLE WORLD
+BATTERY-BATTER INFO SYSTEM
+RPARTS- PARTS INFO SYSTEM
+SPARC- PARTS PRICING 
+
+
+
+HGVDS(Hyundai Global vehical Diagnostic system)
+GVDS Aim is to enable an entire group of Hyundai users participating in the guarantee and technical analysis processs regarding Hyundai vehicles that can be analyzed with the GDS tool
+to have information that is essentail for the implementation of the tasks that have been assigned to them: to have track of the diagnosis done on the vehicles, to be able to improve 
+the methods and or the produtcs by using the case basis, to have better incident comprehension.
+The Improvement of the diagnosis, in order to improve the final client satisfaction
+
+
+The Hyundai GDS is the most advanced diagnostic tool for all Hyundai vehicles. 
+The GDS provides complete functionality from diagnosis to reprogramming as well as maintenance and service information. 
+The system offers total diagnostic coverage of all engine, chassis and body systems, reading and re-setting of diagnostic trouble codes (DTC), 
+and coding of all engine, chassis, body and instrumentation modules.
+Â It is an advanced service system that provides comprehensive coverage for all hyundai vehicles including all hybrid cars.
+Gds provides complete diagnostics, analysis and reprogramming capabilities as well as a huge library of technical, 
+service and repair information.In GDS VCI Diagnostic Tool for KIA Hyundai you can do the following functions: 
+1. Completely Integrated Diagnostic System with User Specific information & settings 
+2. Complete Technical Service Information
+3. Comprehensive & Customized Diagnostic Solution 
+4. Guided Troubleshooting Procedures 
+5. Mobile Data-recording Function 
+6. Real-time Software Management
+
+
+AMDOCS and L&T Interview
+=======================
+Spring boot features
+Transcation-Management in spring boot 
+Exception-Handling
+Custom-Exception
+how can we consume or produce any other webservice
+sateless means in restapi
+hibernate lifecycle
+Hibernate Association (one-one, one-many, many-many)
+diff b/w where and having in sql
+joins and different types of joins and explain
+to run a application in server do you need jdk or jre
+is java pure object oriented ? why?
+coolection vs arrays
+system.out.println();
+method 
+whats is serlization- how you will do ?(do we need to overide anything, does serlizable interface contains any methods)
+synchronization
+equals and == 
+String StringBuffer StringBuilder
+what is immutable
+how hashmapworks
+when one thread is trying read hashmap and other thread is trying to modify hashmap what will happens ? how will you overcome that problem
+sleep vs wait method
+i have list of employees how can you sort employee by employee id or employee name or employee age
+final finally finalaize
+custom immuatable classs
+spring scopes
+spring vs spring boot
+spring and spring boot steriotypes
+contoller vs restcontroller
+ioc vs dependency injection
+how you will implement dependecy injection
+@pathvariable vs @requestparam @requestbody
+print * pattern first line one * 2nd line 2 ** like 5 lines
+employee and department table i need information of employee who is having higger salary (employye table has employye id,name,salary and dept table, dept id,dept name ,fk_empid)
+

@@ -1,0 +1,40 @@
+UserLogin- Security-(Authentication,Authorization)
+User input data Validation- (Client Side validation/Server side validation)
+Tiles(only for spring mvc)
+Internationalization (i8) only applicable in case of old spring mvc,servelt projects
+FileUpload-FileDownload
+Crud operations
+Sending Email with or without attachment
+reading or writing data from/to a text file
+Date Conversions
+Writing data into a csv file
+writing data into csv or excel or pdf or word file and add this into a zip file
+Finding the bugs from existing functionality code/ Understanding code flow and problems
+Creating a reusable code
+checking a logfile for errors and understanding errors and finding solutions 
+CodeQaulity Check using sonar, Code repository-Git, Maven-Build tool, Unit Test case with Junit
+Baiscs of Linux/Unix Os basic commands
+Deployment process
+
+
+=============================================================
+Important Interview topics
+Core Java:
+oops-Polymorphism,Inheritence,Abstaraction,Encapsulation
+Static
+Exception Handing, Custom exception,Throw vs Throws, 
+Threads, Thread life cycle, join,yield, wait, notify, notifyall, Threadsafe- Synchronization
+Collections-List-Arraylist,LinkedList ,Set-HashSet,LinkedHashSet,TreeSet,  Maps-HashMap ,linkedhash map  ,TreeMap,HashTable
+How does hashing works, when to use whcich type of collections, coversion of one type to other type of collection, Synchronization details of collections
+Itterating Collection data
+String Class methods, Object class methods
+String VS String Buffer VS String Builder
+== vs Equals
+immutable classs
+Singletone
+Serilaztion/Deserilazation
+Clonnning
+==============================================================
+
+
+

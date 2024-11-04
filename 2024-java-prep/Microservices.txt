@@ -1,0 +1,43 @@
+Basic Questions
+What is Spring Boot and how does it differ from the traditional Spring framework?
+What are the advantages of using microservices architecture?
+Can you explain the concept of RESTful Web Services?
+What are some key annotations in Spring Boot and their purposes?
+How do you create a Spring Boot application?
+What is the purpose of the application.properties or application.yml file in Spring Boot?
+
+Intermediate Questions
+
+How do you implement exception handling in Spring Boot?
+What is the role of Spring Boot Actuator in microservices?
+Can you explain the concept of Dependency Injection and how it is implemented in Spring Boot?
+What are the differences between @Component, @Service, @Repository, and @Controller annotations?
+How do you manage configuration properties in Spring Boot across different environments?
+What is Spring Cloud and how does it relate to microservices?
+
+Advanced Questions
+
+How do you design and implement a circuit breaker pattern in Spring Boot?
+Can you explain how to use Feign clients for inter-service communication in microservices?
+What are the different ways to secure a Spring Boot application?
+How do you handle distributed transactions across microservices?
+Can you describe how to use Spring Cloud Config for centralized configuration management?
+What is service discovery and how do you implement it using Spring Cloud Netflix Eureka or Spring Cloud Consul?
+
+Real-Time Scenario-Based Questions
+
+Scenario: Your microservices application is experiencing latency issues. How would you diagnose and resolve this problem?
+Scenario: You need to migrate a monolithic application to a microservices architecture. What steps would you take to ensure a smooth transition?
+Scenario: One of your microservices is failing frequently due to network issues. How would you implement a fallback mechanism using Hystrix or Resilience4j?
+Scenario: How would you design a logging and monitoring system for your microservices application?
+Scenario: Your microservices need to communicate with each other securely. How would you set up OAuth2 authentication and authorization?
+Scenario: How would you implement distributed tracing to monitor and debug your microservices?
+
+In-Depth Technical Questions
+
+How do you handle data consistency in microservices, especially in scenarios involving eventual consistency?
+What are some best practices for designing APIs in a microservices architecture?
+Can you explain the concept of a service mesh and its benefits in a microservices environment?
+How do you manage state in a stateless microservices architecture?
+What strategies do you use for load balancing in a microservices architecture?
+How would you implement a blue-green deployment strategy for a Spring Boot microservices application?

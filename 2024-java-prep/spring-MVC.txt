@@ -1,0 +1,26 @@
+1.First request will come to web.xml
+2.Then request mapping with any name / will map to dipactherservlet
+3.Then dipactherservlet with help of application context it will load spring configuration xml file (file name must be yourservletmapping name -servelt) example:spring-servelt
+4.Inside Spring configuration file as we mentioned component scan it will scan all the base packages and it will create beans for all the classes annotated with
+@component,@controller,@Service,@repository,@Bean after creating beans all these will be available with application context, 
+then when it find any annotaion with @autowired it will inject that bean.
+5.in Spring configuration file we mentioned <mvc:annotation-driven /> when ever we use this tag handler mapper will get all the requestmapping information (Postmapping and Getmapping url details)
+now handler mapper will contain all infomration like for which request which method need to be called, so when we give new request like /getuser dipatcher servlet will check with handler mapper to call apropriate method
+in the new versions instead of <mvc:annotation-driven /> tag in xml we can use @EnableWebMvc which will work same as that xml tag
+6.so after that reqest will goto appropriate method then if it is get user data we from contoller we will call service from service will call dao from dao it will goto database and get data
+so this list of data will be setted inside model  m.addAttribute("list", userlist); then we will return logical view name
+7. this logical view name will be resolved by viewresolver, and then dipatcher servelt will send data to appropiate view
+8.we need to view resolver to resolve logical names with actual name , by using view resolver in future if we change frontend ui from jsp to html we dont need to change all files we can just chnage suffix value in configuration xml
+9.when we post form data it needs to be hold in modelattribute annoataion @ModelAttribute("user") User user
+@PostMapping("save")
+public String saveuser(@ModelAttribute("user") User user) {
+
+10. when we send input details in url like edituser/1 it is pathvariable we have to use
+ @RequestMapping(value = "/edituser/{id}")
+public String edit(@PathVariable int id, Model m) 
+11. if we send data in queryparamter we need to use request paramter example: edituser?id=1
+@RequestMapping(value = "/editqueryuser ")
+public String editByQuey(@RequestParam int id, Model m) 
+12.@requestmapping is used in older versions by specifying method type in new version we can use directly method type
+@RequestMapping(value = "/save", method = RequestMethod.POST) or @Postmapping("save")  both are same
+	

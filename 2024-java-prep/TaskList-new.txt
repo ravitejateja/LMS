@@ -1,0 +1,29 @@
+Bestpractices
+logging -with filer configuration
+Application Configuration
+Validations -(client side validation,server side validation)
+CRUD operations 
+file-upload
+file-download
+writing data into pdf or excell and make it zip and then download
+time and data conversions 
+reading and writing data into files
+sending email
+swagger documnetaion
+CustomException
+Exception Handling
+security
+Finding the bugs from existing functionality code/ Understanding code flow and problems
+Creating a reusable code
+checking a logfile for errors and understanding errors and finding solutions 
+CodeQaulity Check using sonar, VCS-Code repository-Git, Maven-Build tool, Unit Test case with Junit
+Baiscs of Linux/Unix Os basic commands
+Deployment process
+
+
+clip-> SDC-(codes generation)
+       SFD-(Diagnostic)                       BVM-(VIS)
+       AST-(Parts Replacement info)
+       SPARC -Parts pricing 
+            
+

@@ -1,0 +1,20 @@
+1. Docker basics
+2. Basics of Kubernetes
+3. Azure Devops (Basics)
+4. Azure All Services Basic Idea
+5. Integrating Azure services with Microservices
+6. Current project end to end flow with architecture 
+7. Aws All Services basic Idea
+8. Basics of OpenShift ( how used in Project)
+9. Prometheus Grafana, Alerting and Monitoring 
+10. Authentication and Authorization (JWT and OAuth2)
+11. Spring Data JPA 
+12. Transactional Annotation //To Do
+13. Kafka Implementation //To Do
+14. Data base basics    //To Do
+15 All design patterns
+16. How will you call asynchronously a API call
+17. how will you implement HTPPS (TLS/Mutual TLS)
+18. Uncovered topics in Collections (Stack, Queue)
+19. Garbage collection
+20.Junit, Mockito , power mockito
