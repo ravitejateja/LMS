@@ -88,6 +88,11 @@ Questions asked in interviews
 //i/p raviteja sugali, Anusha nenavath ,
 // o/p should be surname like sugali , nenavath
 
+Find the Longest Word in a Sentence
+Find the employee name of 2nd highest employee salary in HR department
+Increment employee salary by 10% and find employee name of 2nd highest salary
+Find Employees in a Department with Highest Salary
+
 1.Change capital to small and small to capital letter
 2.count special characters in given string
 3.find duplicate characters in given string
@@ -179,6 +184,45 @@ Split a Sentence into Words and Sort by Word Length:
 
 Given a sentence, split it into words and sort the words by their length in descending order using Java 8 Stream API. If two words have the same length, maintain their original order.
 
+Certainly! Here are the questions extracted without the solutions:
+
+Find Even and Odd Numbers from a List.
+Find the Second Highest Number in a List.
+Reverse a String.
+Count Occurrences of Each Character in a String.
+Find the First Non-Repeating Character in a String.
+Sort a List of Employees by Salary in Descending Order.
+Remove Duplicates from a List.
+Convert List of Strings to Uppercase.
+Calculate the Average Salary of Employees in a Department.
+Find the Maximum and Minimum Value in a List.
+Partition a List of Numbers into Odd and Even.
+Get a List of Names of Employees in a Specific Department.
+Convert List of Strings to a Single Comma-Separated String.
+Flatten a List of Lists Using Java 8 Streams.
+Find All Employees Earning Above a Certain Salary.
+Group Employees by Department and Count Them.
+Use Optional to Handle Possible Null Values.
+Find the Longest Word in a Sentence.
+Find Common Elements Between Two Lists.
+Calculate Factorial of a Number Using Streams.
+Find Employees in a Department with Highest Salary.
+Filter and Transform Nested Data Structures.
+Find Second Most Frequent Character in a String.
+Group and Filter Data with Conditions.
+Calculate Frequency of Words in a Sentence and Filter Common Words.
+Find Products that Meet Multiple Criteria.
+Sort and Limit Results from Grouped Data.
+Sum Quantities by Item for Orders.
+Find Most Expensive Product in Each Category and List Their Names.
+Find Employee with the Longest Tenure in Each Department.
+Partition List of Strings Based on Length.
+Create a Map of Unique Characters to Their Frequencies in a Sentence.
+Calculate Total Amount Spent by Each Customer on Multiple Orders.
+Find Distinct Words from a List of Sentences.
+Calculate the Percentage of Employees in Each Department.
+Check if All Employees Meet a Certain Condition.
+Generate Fibonacci Sequence Using Streams.
 
 
 
