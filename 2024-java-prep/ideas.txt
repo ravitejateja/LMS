@@ -1215,6 +1215,38 @@ metaspace vs permgen
 different garbage collector impl
 memeory areas in jvm
 -----------------
+
+
+IBM L1 Questions asked Others
+========================================================
+Given an array of N integers, write a program to return an element that occurs more than N/2 times in the given array. You may consider that such an element always exists
+ in the array. using java8
+
+what are the changes introduced in java8 related to garbage collector 
+SOLID Principles
+
+when u have multiple microservices how you are communicating securely Authentication and Authorization how its happening  meaning service A how it will call 
+securely Service B and also how Service B will trust Service A
+
+if we have Transaction A , B, C, D normally when one transaction fails we revert how to make one transaction as optional meaning if transaction C fails then even we should commit
+
+when too any users trying to buy a product and we have a single product , if the one customer select the product, for all other customers as fallback we will show product sold out 
+how you track all the user who got sold out
+
+Design patterns used in your project
+
+Asynchronous and Synchronous communication in rest api
+
+Explain about Saga Design Pattern Clearly with project (Chorography and  Orchestrator)
+
+Explain about Transaction Management 
+
+Process of deployment used , deployment strategy used  , docker and Kubernetes
+merge and rebase, stash when to chose which one     
+=============================================================================================================================
+
+
+
 Java 8,11, 17 features
 High cohesion and low Cohesion
 lose coupling and tight coupling
