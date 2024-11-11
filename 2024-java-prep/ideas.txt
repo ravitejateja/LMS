@@ -1245,6 +1245,18 @@ Process of deployment used , deployment strategy used  , docker and Kubernetes
 merge and rebase, stash when to chose which one     
 =============================================================================================================================
 
+Global Logic 
+You have Map with key and value key as String and value as integers you need to sort based on value 
+If I have Employee Object with name,id,dept , if if don't want to allow Employee with same name in hashset what we need to do
+For retrieving data why ArrayList is good but why not LinkedList, what is internal implementation of array list and what is the time complexity in both
+and does in arraylist it directly jump to index while searching ? how does in linked list it will search 
+Concurrency, Executers, CompletableFeature vs Future
+explain about shutdown method in executers 
+Explain in microservice ,if we have Service A and we call Service B, what we can do if service B Is down ? how do we implement steps we follow
+NamedQuery in Spring DataJPA, Native Query in Spring Data JPA,
+L2
+Design A Ticketing Support System example like for Jio , Gather tickets from all ways like mail, social Media, Calls etc.. consider 
+gather tickets and route to particular dept and based on priority 
 
 
 Java 8,11, 17 features
