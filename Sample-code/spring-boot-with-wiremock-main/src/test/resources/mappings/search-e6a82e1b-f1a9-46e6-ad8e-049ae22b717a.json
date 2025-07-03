@@ -1,0 +1,25 @@
+{
+  "id" : "e6a82e1b-f1a9-46e6-ad8e-049ae22b717a",
+  "name" : "search",
+  "request" : {
+    "url" : "/search?country=uk",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json, application/*+json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"domains\": [\"hult.edu\"], \"state-province\": null, \"country\": \"UK\", \"alpha_two_code\": \"UK\", \"web_pages\": [\"https://www.hult.edu/campuses/london/postgraduate/\"], \"name\": \"HULT Business School\"}, {\"domains\": [\"hult.edu\"], \"state-province\": null, \"country\": \"UK\", \"alpha_two_code\": \"UK\", \"web_pages\": [\"https://www.hult.edu/campuses/london/postgraduate/\"], \"name\": \"HULT Business School\"}]",
+    "headers" : {
+      "Server" : "nginx/1.14.0",
+      "Date" : "Sun, 23 Jul 2023 06:48:09 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "e6a82e1b-f1a9-46e6-ad8e-049ae22b717a",
+  "persistent" : true,
+  "insertionIndex" : 6
+}

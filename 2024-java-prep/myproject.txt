@@ -1,0 +1,34 @@
+1.when user logins from front-end using ItsMe or ING Card reader it will redirect user to a external webcomponent (which will do user authorization and authentication)
+ Using Authenication Orchestartion API -> And connect with onePAM and generates a Access token  and the will be given back to frontend application
+2. front end application call's backend API with this accesstoken in headers then request will go to API gateway(ING Internal gateway app) which will
+ validate endpoint is whitelisted or not then it will validate validate this accesstoken by using a public certificate key and then if its valid it will check the requested resource 
+from service discovery the available host then it will call specific api end point (using load balancer) rate limit also applied here and also circuit breaker pattern also
+3.First request will come to /start end point with access token in request headers , when ever request comes first filter will intercept the request to validate accesstoken with
+available public certificate and get claims from claims we will verify date and some other paramaters we have Ing provided dependency which will do all these
+4.then from start call we will call Permission Access Profile external api with this access token and get user like beneficiary id and requester id and we get Beneficiary or requester ID 
+5. we will call InolvedParty API using beneficiary ID and we get CSI ID 
+other checks like qualification api call with response having specifc codes
+6. we update few information in agreement request database api (if any of above case get failed we update state In ard as declined or else Draft state )
+7.we use this CSI ID  to call CSI HUB API and get all customer basic information like first name last name user data of birth address
+
+next step we check tax residency of the user he is belgian or  tax residency of any other conutry if he slelct other we update ARD status as declined
+
+create basket call for cao basket creation 
+
+after that ard status as submitted
+
+then call consent orchestration call if user consent is okay
+update ARD status to authorized 
+ 
+
+/fulfill call                                
+
+                                     -> During fulfill fill call we will invoke AMS hub API for account reservation and then account creation it will call easy service
+                                     -> Capabilty api will maniily check some CSI realted condtiotons and the it will involved in order-debit card service CSI id , Iban arrnagment
+TAR api connection with some input data
+Patch agreement with Fulfill 
+call engagment suite api send few deatils about customer first name, last name Iban number ,then send a communcation to customer with thank you email
+
+
+
+

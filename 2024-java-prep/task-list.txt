@@ -1,0 +1,12 @@
+Task-List ( Time : 7 days)
+1. Convert Integer to String and vice versa
+2. print todays date or user input date in different formats like  21-07-2021,  2020-07-2021, 21-MAR-2021 21/MAR/2021 , 21-07-2021 print time also
+3. convert above date into string and vice versa format
+4. i have a string 20210701DTR i want to get only the number without DTR
+5. write any data into txt file and you have to read the data from same txt file and print in console 
+6. calculate the number of days difference b/w two input dates example input  01-05-2021   and 25-07-2021  (note input given in the string format)
+7. when user submit a string validate the string must be 17 characters  and should not be null and it should not contains any symbols(special characters or spaces) 
+check each condition if condition fails it should return appropriate error message 
+8. fetch data from database and write the data into csv file, the file name should be todaysdate_myapp.csv example: 2021-07-12_myapp.csv
+9. when user gives input as a String 20210701DTR a folder should be created with this name 20210701ENG
+10. when user gives any input folder location you should read all the files and folders names and print if it is folder or file , and its size and file modified date

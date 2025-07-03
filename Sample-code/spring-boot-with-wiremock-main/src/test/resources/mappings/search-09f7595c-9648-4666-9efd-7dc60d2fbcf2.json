@@ -1,0 +1,25 @@
+{
+  "id" : "09f7595c-9648-4666-9efd-7dc60d2fbcf2",
+  "name" : "search",
+  "request" : {
+    "url" : "/search?country=middle",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json, application/*+json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[]",
+    "headers" : {
+      "Server" : "nginx/1.14.0",
+      "Date" : "Sun, 23 Jul 2023 06:48:08 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "09f7595c-9648-4666-9efd-7dc60d2fbcf2",
+  "persistent" : true,
+  "insertionIndex" : 5
+}

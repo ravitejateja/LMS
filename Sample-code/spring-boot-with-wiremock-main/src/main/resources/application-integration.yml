@@ -1,0 +1,11 @@
+wiremock-config:
+  proxies:
+    - name: university
+      port: 9081
+      url: http://api.postalpincode.in
+      recording: true
+
+universitiesBaseURL: http://localhost:9081
+
+
+#http://universities.hipolabs.com

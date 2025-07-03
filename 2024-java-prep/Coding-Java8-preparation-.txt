@@ -1,0 +1,282 @@
+Website javaconceptoftheday questions
+
+1.Seperate odd and event numbers (also find count and also find nth highest number from that)
+2. remove duplicate elements from List  (remove duplicate numbers, duplicate strings , duplicate words from sentence, duplicate chars,  duplicate dept from employee obj )
+    find duplicates in given string / list / employee and print duplicated value with count
+3.Frequency of each char in String
+4. frequency of each element in an array
+5.sort the list in reverse order (numbers , words etc)
+6. Join the List of Strings with prefix, suffix and delimeter
+7.print multiples of 5 from the given list
+8.find max and min in a List
+9. Merge two unsorted arrays into single sorted array 
+10. Anagram program
+11.Merge two unsorted arrays into single sorted array with out duplicates 
+12. sum of all digits of a number
+13 three max and min numbers from the list 
+15 second largest number in a integer array
+16 sort list of string in increasing order of their length 
+17.common elements between two arrays
+18. sum & average of all elements of an array
+19.reverse each word of a string
+20.reverse an integer array
+21.sum of first 10 natural numbers
+22.find strings which start with number
+23.palindrome program in java 8
+24.find duplicate elements from an array
+25.last element of an array
+26.age of person in years
+27.Fibonacci series
+=============================================================================================================================================================================
+CHAT GPT Questions 
+
+1. Group Employees by Department and Count
+How would you group a list of employees by their department and count the number of employees in each department?
+2. Find the Second Highest Salary
+How would you find the second highest salary in a list of employees?
+3. Partition Employees by Salary
+How can you partition a list of employees into two groups: those who earn more than 50,000 and those who earn less?
+4. Find Employees with the Highest Salary in Each Department
+How would you find the employee with the highest salary in each department from a list of employees?
+5. Convert List of Strings to Uppercase
+How can you convert all strings in a list to uppercase using Java 8 streams?
+6. Remove Duplicates from a List
+How would you remove duplicates from a list of integers using Java 8 streams?
+7. Find the Longest String in a List
+How can you find the longest string in a list of strings?
+8. Flatten a List of Lists
+How would you flatten a list of lists into a single list using Java 8 streams?
+9. Count the Frequency of Characters in a String
+How can you count the frequency of each character in a string using Java 8 streams?
+10. Calculate the Sum of All Salaries
+How would you calculate the sum of all salaries in a list of employees using Java 8?
+11. Sort a List of Employees by Name
+How can you sort a list of employees by their names using Java 8 streams?
+12. Group Strings by Their Length
+How would you group a list of strings by their length using Java 8 streams?
+13. Parallel Stream Example
+How can you use parallel streams to sum a list of integers?
+14. Generate Fibonacci Sequence
+How would you generate the first 10 numbers of the Fibonacci sequence using Java 8 streams?
+15. Collect Data into a Map
+How can you collect a list of employees into a map where the key is the employee's name and the value is the employee object?
+16. Find the Average Salary
+How would you find the average salary of a list of employees using Java 8 streams?
+17. Check if All Employees are Above a Certain Age
+How can you check if all employees in a list are above 18 years old using Java 8 streams?
+18. Convert a List to a Map of Lengths
+How would you convert a list of strings into a map where the key is the string and the value is its length using Java 8 streams?
+19. Filter Employees Based on a Condition
+How can you filter a list of employees to find those who are older than 30 using Java 8 streams?
+20. Sort a Map by Values
+How would you sort a map by its values in ascending order using Java 8 streams?
+//  Implement a Java class named "Student" which has attributes like "name" and "age". sort the objects based on the "name" and "age" attributes
+    
+==========================
+other
+1 Find top 10 highest salary paid employee name and salary
+2 group list of students based on grade and then calculate avg grades
+3.find avg salary based on employee dept
+4. find the most repeating word in a list
+=======================================================
+Questions asked in interviews
+// i/p: hi ravi how are yoU?
+//  o/p: hI rAvi hOw aRe yOu?
+
+//  Implement a Java class named "Student" which has attributes like "name" and "age". sort the objects based on the "name" and "age" attributes
+    
+//i/p raviteja sugali, Anusha nenavath ,
+// o/p should be surname like sugali , nenavath
+
+Find the Longest Word in a Sentence
+Find the employee name of 2nd highest employee salary in HR department
+Increment employee salary by 10% and find employee name of 2nd highest salary
+Find Employees in a Department with Highest Salary
+
+1.Change capital to small and small to capital letter
+2.count special characters in given string
+3.find duplicate characters in given string
+4.get the list of strings from given list that ends with given letters example india china , need words ends with ia
+5.print result get even number and then square the number and then multiply that number print result
+6.find missing numbers in the range from 10 to 20 only
+7.convert list to map with reversed key-value pairs
+8.find the Nth highest number
+9.Peak method usage
+10.find duplicate numbers
+11.print non repeated char in given string
+12remove duplicate char in given string
+13.reverse words of strings
+14. 2nd highest number
+15string reverse 
+16.sum of consecutive numbers
+17.sum of integers 
+18.total count of words in given string
+19.sort map by values
+20.frequency of each char in given string
+21.most used stream methods in java8 with examples
+22.terminal operations and Intermediate operation methods with examples
+23.some other examples with limit, skip, filter, groupby, avg , sum ,Function.Identity
+24.Find 2nd repeated char in given string 
+25 fins 2nd non-repeated char in given string
+
+=============================================================================================
+ChatGpt
+
+Count the Frequency of Each Word in a Sentence:
+
+Given a sentence as a String, write a Java 8 program to count the frequency of each word in the sentence and return a Map<String, Long>.
+Find the Longest Word in a Sentence:
+
+Given a sentence, find the longest word using Java 8 Stream API. If there are multiple words with the same length, return any one of them.
+Reverse the Words in a Sentence:
+
+Given a sentence, reverse the order of words using Java 8 Stream API.
+Sort Words in a Sentence Alphabetically:
+
+Given a sentence, sort the words alphabetically using Java 8 Stream API.
+Filter Words Starting with a Specific Letter:
+
+Given a sentence, filter out all the words that start with a specific letter (e.g., 'S') using Java 8 Stream API.
+Find All Unique Characters in a Sentence:
+
+Given a sentence, find all unique characters using Java 8 Stream API and return them as a Set<Character>.
+Group Words by Their Length:
+
+Given a sentence, group the words by their length using Java 8 Stream API and return a Map<Integer, List<String>>.
+Find the Word with the Maximum Occurrences of a Specific Character:
+
+Given a sentence, find the word with the maximum occurrences of a specific character (e.g., 'e') using Java 8 Stream API.
+Replace All Vowels in Each Word with a Specific Character:
+
+Given a sentence, replace all vowels in each word with a specific character (e.g., '*') using Java 8 Stream API.
+Partition Words by Their Length Being Even or Odd:
+
+Given a sentence, partition the words into two lists: one for words with an even number of characters and one for words with an odd number of characters using Java 8 Stream API.
+
+Find the Second Most Frequent Word in a Sentence:
+
+Given a sentence, find the second most frequent word using Java 8 Stream API. If there's a tie, return any one of them.
+Find All Palindromic Words in a Sentence:
+
+Given a sentence, identify all the words that are palindromes using Java 8 Stream API. A palindrome reads the same forward and backward (e.g., "madam").
+Create a Map of Words Grouped by Their First Letter:
+
+Given a sentence, create a Map<Character, List<String>> where the key is the first letter of each word, and the value is a list of words starting with that letter.
+Calculate the Average Length of Words in a Sentence:
+
+Given a sentence, calculate the average length of the words using Java 8 Stream API.
+Find the Shortest Word Containing a Specific Character:
+
+Given a sentence, find the shortest word that contains a specific character (e.g., 'a') using Java 8 Stream API.
+Transform Words to Uppercase and Remove Duplicates:
+
+Given a sentence, convert all words to uppercase, remove duplicates, and return the unique words as a list using Java 8 Stream API.
+Generate a Frequency Map of Characters (Excluding Spaces):
+
+Given a sentence, create a frequency map of characters (excluding spaces) using Java 8 Stream API.
+Remove Words That Contain a Specific Substring:
+
+Given a sentence, remove all words that contain a specific substring (e.g., "ing") using Java 8 Stream API.
+Concatenate Words That Have an Even Number of Characters:
+
+Given a sentence, concatenate all words that have an even number of characters into a single string using Java 8 Stream API.
+Split a Sentence into Words and Sort by Word Length:
+
+Given a sentence, split it into words and sort the words by their length in descending order using Java 8 Stream API. If two words have the same length, maintain their original order.
+
+Certainly! Here are the questions extracted without the solutions:
+
+Find Even and Odd Numbers from a List.
+Find the Second Highest Number in a List.
+Reverse a String.
+Count Occurrences of Each Character in a String.
+Find the First Non-Repeating Character in a String.
+Sort a List of Employees by Salary in Descending Order.
+Remove Duplicates from a List.
+Convert List of Strings to Uppercase.
+Calculate the Average Salary of Employees in a Department.
+Find the Maximum and Minimum Value in a List.
+Partition a List of Numbers into Odd and Even.
+Get a List of Names of Employees in a Specific Department.
+Convert List of Strings to a Single Comma-Separated String.
+Flatten a List of Lists Using Java 8 Streams.
+Find All Employees Earning Above a Certain Salary.
+Group Employees by Department and Count Them.
+Use Optional to Handle Possible Null Values.
+Find the Longest Word in a Sentence.
+Find Common Elements Between Two Lists.
+Calculate Factorial of a Number Using Streams.
+Find Employees in a Department with Highest Salary.
+Filter and Transform Nested Data Structures.
+Find Second Most Frequent Character in a String.
+Group and Filter Data with Conditions.
+Calculate Frequency of Words in a Sentence and Filter Common Words.
+Find Products that Meet Multiple Criteria.
+Sort and Limit Results from Grouped Data.
+Sum Quantities by Item for Orders.
+Find Most Expensive Product in Each Category and List Their Names.
+Find Employee with the Longest Tenure in Each Department.
+Partition List of Strings Based on Length.
+Create a Map of Unique Characters to Their Frequencies in a Sentence.
+Calculate Total Amount Spent by Each Customer on Multiple Orders.
+Find Distinct Words from a List of Sentences.
+Calculate the Percentage of Employees in Each Department.
+Check if All Employees Meet a Certain Condition.
+Generate Fibonacci Sequence Using Streams.
+
+
+
+Azure
+ 
+Aws featuews
+analytics app integration comute serveless containers databases dev tools  management and minitring netwoerking stroge
+s
+azure app service azure sql azure store blob tabes static web apps azure functions azure devops azure cosmos db app config
+keyvault webapps rbaCc application gatway azure signal service cost management 
+
+
+backend java 8 java 8 feature jvm class loading garbage collection dunctional prgraming opps priciples
+core java devopment java with threads swagger open api se   RMM levels CAP therome  API gateway aptterns spring mvc intergtaion
+
+technical documentation ability to select proper approach to selct aptterns to frames work for impl
+design patterns princilles arch
+microservice from scratch]
+transcation management 
+ci/cd from scratch
+kafka
+databases
+
+(JVM Arch, Memory Areas , Prem-gen, Meta-Space, Garage collection complete)
+
+
+lack in uppger and loser bound generacicv completable features open/closed closed fixing time and space 
+time complext
+
+
+
+Core Java complete Including Java 8 , Asynchronus vs Synchronus systems
+web basics ,Servlets, Spring Frame work, MVC IOC AOP ,JSP
+Spring Boot, webservices , RestAPI Design , Best way to Desigin REST API 
+Microservices    (monolithic , SOA, Microservices)
+Sql quires, JDBC, Hibernate, Spring Data JPA
+Spring Security OAuth2 , JWT, HTTPS , Validations
+Kafka
+Design Patterns core java Microservices  System Design Concepts Distributed systems transaction management
+Technical Documentation , Swagger , How to select proper framework or library while development
+Testing Junit, Mockito, Wiremock
+Git all commands cases ,Maven all cases , CI/CD pipeline , Docker ,Kubernet all concepts , deployment strategies , OpenShit
+problem faced during development , what faced how you solved , how to you develop ,configure 
+Best Practices , code review principles , Chekmarx , Vulnarability
+ING way of working and all Architecture 
+Azure all services
+AWS All services  
+how to integrate all services with cloud spring boot microservices
+
+
+
+
+
+
+
+ 
+

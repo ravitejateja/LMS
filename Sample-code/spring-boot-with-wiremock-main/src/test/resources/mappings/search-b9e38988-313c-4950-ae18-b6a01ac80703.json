@@ -1,0 +1,25 @@
+{
+  "id" : "b9e38988-313c-4950-ae18-b6a01ac80703",
+  "name" : "search",
+  "request" : {
+    "url" : "/search?country=australia",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json, application/*+json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "search-b9e38988-313c-4950-ae18-b6a01ac80703.json",
+    "headers" : {
+      "Server" : "nginx/1.14.0",
+      "Date" : "Sun, 23 Jul 2023 06:43:04 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "b9e38988-313c-4950-ae18-b6a01ac80703",
+  "persistent" : true,
+  "insertionIndex" : 4
+}
