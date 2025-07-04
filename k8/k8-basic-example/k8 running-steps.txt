@@ -1,0 +1,40 @@
+steps:
+create spring boot microservices 
+enrollment-service, course-service, user-service
+create docker images for all 3 services 
+create deployment yaml files for all services 
+create ingress ngnix gateway
+verify application
+----------------------------------
+minikube start or stop
+minikube dashboard
+minikube addons enable ingress
+minikube image load enrollment-service:1.0    ( example service use this step if your image is not in repo instead of pulling from repo we manually load image)
+kubectl kubectl apply -f enrollment-svc-k8.yaml  do same for all services
+kubectl apply -f ingress.yaml for ingress
+
+>minikube tunnel   // to access url via tunnel as k8 running inside docker
+
+// get ingress gateway url by this 
+minikube service ingress-nginx-controller -n ingress-nginx
+then hit like below http://127.0.0.1:61498/enroll/101/501
+
+---
+optional steps
+
+minikube start --driver=docker
+minikube addons enable ingress
+minikube image load enrollment-service:1.0    (use this step if your image is not in repo instead of pulling from repo we manually load image)
+
+minikube addons enable metrics-server  (use this if you want to enable auto scalling HPA)
+
+
+minikube service enrollment-service --url  to get direct docker url (http://127.0.0.1:61737)
+* service default/enrollment-service has no node port
+! Services [default/enrollment-service] have type "ClusterIP" not meant to be exposed, however for local development minikube allows you to access this !
+http://127.0.0.1:61737
+! Because you are using a Docker driver on windows, the terminal needs to be open to run it.
+
+
+
+

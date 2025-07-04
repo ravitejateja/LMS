@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: course-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: course-service
+  template:
+    metadata:
+      labels:
+        app: course-service
+    spec:
+      containers:
+        - name: course
+          image: course-service:1.0
+          ports:
+            - containerPort: 8081
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: course-service
+spec:
+  selector:
+    app: course-service
+  ports:
+    - port: 80
+      targetPort: 8081
